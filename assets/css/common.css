@@ -113,7 +113,7 @@ header {
     font-size: 14px;
     color: #232323;
     letter-spacing: 1px;
-    transition: all .2s ease-out;
+    transition: height .2s ease-out;
     border-bottom: 2px solid #B72712;
 }
 
