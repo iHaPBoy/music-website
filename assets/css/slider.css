@@ -1,0 +1,119 @@
+/* Slider */
+
+.slider-wrap {
+    padding: 0;
+    box-shadow: 0 1px 38px rgba(0, 0, 0, .08);
+    overflow: hidden;
+    margin-top: 30px;
+    height: 324px;
+    border-radius: 8px;
+}
+
+.slider * {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+
+.slider .slider-item-list {
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+    transition: left 1s;
+    transition-duration: 1.5s;
+    left: 0;
+}
+
+.slider .slider-item {
+    display: block;
+    height: inherit;
+    float: left;
+}
+
+.slider .slider-item .img {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    background-size: 100%;
+    background-position: 50% 40%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.slider .slider-item .slider-item-title {
+    display: flex;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 30px 48px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .3));
+}
+
+.slider .slider-dots-wrap {
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 2px;
+}
+
+.slider .slider-dots-wrap .slider-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(204, 204, 204, 0.8);
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.slider .slider-dots-wrap .slider-dot:hover {
+    background-color: #cdcdcd;
+}
+
+.slider .slider-dots-wrap .slider-dot.slider-dot-selected {
+    background-color: #B72712;
+}
+
+.slider .slider-arrow {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    z-index: 100;
+    height: 64px;
+    width: 40px;
+    cursor: pointer;
+    background-size: 40px 64px;
+    background-repeat: no-repeat;
+}
+
+.slider .slider-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.slider .slider-arrows-wrap {
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.slider:hover .slider-arrows-wrap {
+    opacity: 1;
+}
+
+.slider .slider-arrow.slider-arrow-right {
+    background-image: url("../images/slider/right.png");
+    right: 0;
+}
+
+.slider .slider-arrow.slider-arrow-left {
+    background-image: url("../images/slider/left.png");
+    left: 0;
+}

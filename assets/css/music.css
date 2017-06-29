@@ -1,0 +1,23 @@
+/* Music Page */
+
+.player-wrap {
+    padding: 0;
+    box-shadow: 0 3px 10px -3px rgba(0, 0, 0, .08);
+    overflow: hidden;
+    margin-top: 30px;
+    height: 66px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .14);
+}
+
+.box {
+    margin-top: 24px;
+}
+
+#music-player {
+    margin: 0;
+    background-color: #fafafa;
+    background-image: -webkit-linear-gradient(top, #fff, #fafafa);
+    background-image: linear-gradient(180deg, #fff, #fafafa);
+    box-shadow: none;
+}

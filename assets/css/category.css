@@ -1,0 +1,64 @@
+/* Category */
+
+.main-wrap {
+    margin: 0;
+}
+
+.music-list {
+    margin: 20px 0 0 -54px;
+}
+
+.music-list li {
+    padding-left: 54px;
+}
+
+.content-box {
+    padding-bottom: 0;
+}
+
+.category-header-wrap {
+    padding: 0;
+    box-shadow: 0 1px 38px rgba(0, 0, 0, .08);
+    overflow: hidden;
+    margin-top: 30px;
+    height: 188px;
+    border-radius: 8px;
+}
+
+.category-header-banner {
+    height: inherit;
+    position: relative;
+}
+
+.category-header-banner .content {
+    color: #ffffff;
+    padding: 60px 50px;
+}
+
+.category-header-banner .content p {
+    font-size: 14px;
+    opacity: .8;
+    margin: 0;
+}
+
+.category-header-banner .content h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.category-header-banner .img {
+    width: 100%;
+    height: inherit;
+    background-size: 100%;
+    background-position: 50% 40%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.category-header-banner .mask {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .3));
+}
