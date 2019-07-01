@@ -1,5 +1,5 @@
 // 轮播图
-// 作者：陈晓东
+// 作者：HaPBoy
 var HBSlider = {
   // 配置及数据
   data: {
